@@ -10,57 +10,54 @@
   <div>
   <!-- Nav bar-->
     <div class="sticky flex justify-around flex-row p-3 bg-white shadow-md top-0 z-50">
-      <h2 class="text-3xl text-sky-500 font-extrabold">Westview Hacks</h2>
+      <h2 class="text-xl md:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl text-sky-500 font-extrabold">Westview Hacks</h2>
       <div class="flex flex-row text-black">
-        <a href="#home" class="p-2">Home</a>
-        <a href="#info" class="p-2">Info</a>
-        <a href="#faq" class="p-2">FAQ</a>
-        <a href="#sponsors" class="p-2">Sponsors</a>
         <a class="rounded ml-2 p-2 font-bold text-white bg-black" href="https://docs.google.com/forms/d/e/1FAIpQLSfcQ-MwMholKStfGZ6xIiRcOSXhdBZQbnmUOqDgc-PSCgyIYQ/viewform?usp=sf_link">Register</a>
       </div>
     </div>
     <div id="home" style="background-image: url('hero.jpg');">
       <!--Hero contents-->
       <div class="flex flex-col justify-center items-center h-screen backdrop-blur-sm bg-white/30 backdrop-brightness-50">
-        <h1 class="font-black text-8xl text-amber-200 sm:text-lg">Westview Hacks</h1>
-        <p class="mt-3 mb-5 font-medium text-white text-2xl underline decoration-sky-500">An in-person hackathon for middle and high schoolers in Westview High School</p>
-        <p class="text-white text-3xl font-extrabold">A 5 Hour Hackathon</p>
-        <a class="mt-5 p-2 text-xl text-black font-medium bg-amber-200 rounded-md" href="https://docs.google.com/forms/d/e/1FAIpQLSfcQ-MwMholKStfGZ6xIiRcOSXhdBZQbnmUOqDgc-PSCgyIYQ/viewform?usp=sf_link">Register</a>
+        <h1 class="font-black text-4xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-8xl text-amber-200">Westview Hacks</h1>
+        <p class="mt-3 mb-5 font-medium text-white text-lg md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl underline decoration-sky-500">An in-person hackathon for middle and high schoolers in Westview High School</p>
+        <p class="text-white text-xl md:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl font-extrabold">A 5 Hour Hackathon</p>
+        <a class="mt-5 p-2 text-md md:text-lg lg:text-lg xl:text-lg 2xl:text-lg text-black font-medium bg-amber-200 rounded-md" href="https://docs.google.com/forms/d/e/1FAIpQLSfcQ-MwMholKStfGZ6xIiRcOSXhdBZQbnmUOqDgc-PSCgyIYQ/viewform?usp=sf_link">Register</a>
       </div>
     </div>
     <!-- Info section -->
-    <div id="info" class="bg-sky-500 px-96 py-14 text-white">
+    <div id="info" class="box-border bg-sky-500 px-[5%] md:px-[10%] lg:px-[15%] xl:px-[15%] 2xl:px-[15%] py-14 text-white">
       <!-- about section-->
-      <div class="flex">
+      <div class="flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
         <div>
-          <h1 class="text-6xl pb-8 font-semibold">About</h1>
-          <p class="text-2xl pb-8">Hey hacker! Westview Hacks is a hackathon where you will code fun & crazy projects individually or with a team of 2-4 people. 
+          <h1 class="text-2xl pb-2 md:text-6xl md:pb-8 font-semibold">About</h1>
+          <p class="text-lg pb-8 md:text-2xl">Hey hacker! Westview Hacks is a hackathon where you will code fun & crazy projects individually or with a team of 2-4 people. 
             Think of it as a 10-hour coding marathon (with time for food and breaks!)
             Compete until the end to win cool prizes! We encourage and welcome any middle and high student to participate, regardless of programming experience.
           </p>
         </div>
-        <img src="aboutpic.jpg" alt="picture of a hackathon event" class="w-2/5 object-cover rounded-lg"/>
+        <img src="aboutpic.jpg" alt="picture of a hackathon event" class="w-[100%] h-[50%] object-cover pb-8 md:w-1/2 md:h-[500px]"/>
       </div>
-      <!-- de`ails section -->
-      <div class="flex">
-        <div class="border rounded p-6 mr-2">
+      <!-- details section -->
+      <div class="flex flex-col md:flex-row lg:flex-row 2xl:flex-row ">
+        <div class="border rounded p-6 mr-2 my-1">
           <h2 class="text-3xl">Where</h2>
           <ul class="list-disc p-5 w-64 text-lg">
-            <li>Westview High School Staff Lounge</li>
-            <li class="underline">Map here or something</li>
+            <li>13500 Camino Del Sur San Diego</li>
+            <li>Westview High School Staff Lounge</li>            
+            <!-- <li class="underline">Map here or something</li> -->
           </ul>
         </div>
-        <div class="border rounded p-6 ml-2">
+        <div class="border rounded p-6 ml-2 my-1">
           <h2 class="text-3xl">When</h2>
           <ul class="list-disc p-5 w-64 text-lg">
             <li>Saturday, May 27th</li>
-            <li>11AM-4PM</li>
+            <li>10AM-3PM</li>
           </ul>
         </div>
       </div>
     </div>
     <!-- FRQ section -->
-    <div id="faq" class="bg-amber-200 py-14 px-96 text-black"> 
+    <div id="faq" class="bg-amber-200 px-[5%] md:px-[10%] lg:px-[15%] xl:px-[15%] 2xl:px-[15%] py-14 text-black"> 
       <h1 class="text-6xl font-semibold">FAQs</h1>
       <div class="py-8">
         <h2 class="text-2xl font-bold">What is a hackathon?</h2>
@@ -91,9 +88,9 @@
         <p class="text-lg pt-2">We welcome any middle and high school student!</p>
       </div>
     </div>
-    <div id="sponsors" class="bg-sky-500">
+    <!-- <div id="sponsors" class="bg-sky-500">
       <div>Sponsors</div>
-    </div>
+    </div> -->
   </div>
 </body>
 </html>
